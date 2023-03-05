@@ -2,7 +2,7 @@
 
 ![Design preview for the Shortly URL shortening API coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+## Welcome!! 👋
 
 Thanks for checking out this front-end coding challenge.
 
