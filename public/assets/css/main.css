@@ -107,38 +107,45 @@ main{
 }
 
 .container-shorter-main{
+    display:flex;
+    justify-content: center;
     width: 100%;
-    height: auto;
+    height: 200px;
     position: relative;
     margin-top: 80px;
-    height: 150px;
+    margin-bottom: 50px;
 }
 
 .container-shorter-main img{
-    width: 900px;
+    width:100%;
     position: absolute;
+    height: 200px;
     z-index: 10;
-    left: 230px;
-    border-radius: 4px;
+   
+}  
+
+.container-short{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .container-shorter-main textarea{
-    width: 500px;
-    resize: none;
     position: relative;
     z-index: 11;
+    width: 500px;
+    height: 40px;
+    resize: none;
     border-radius: 5px;
     outline: none;
     padding: 5px;
-    left: 320px;
-    top: 45px;
     border: 1px solid hsl(180, 66%, 49%) ;
 }
 #btn_shortened{
     position: relative;
     z-index: 11;
-    left: 350px;
-    top: 30px;
     background-color: hsl(180, 66%, 49%);
     padding: 10px 40px;
     border-radius: 10px;
@@ -147,7 +154,6 @@ main{
     text-decoration: none;
     font-weight: bold; 
 }
-
 
 #btn_shortened:hover{
     cursor: pointer;
@@ -201,15 +207,13 @@ main{
 .statics h1{
     font-size: 2rem;
     color: hsl(260, 8%, 14%);
-    padding-left: 540px;
     margin-top: 30px;
+    text-align: center;
 }
 .statics  p{
     font-size: 1.3rem;
-    width: 500px;
     color: hsla(260, 8%, 14%, 0.705);
     text-align: center;
-    margin: 20px 0 30px 430px;
 }
 
 .container__items_statics{
